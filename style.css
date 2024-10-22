@@ -2,4 +2,99 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     box-sizing: border-box;
+    height:400vh;
+}
+
+/* .demo{
+display:none;
+}
+
+.demo2{
+display:none;
+} */
+
+.demo3{
+    width:200px;
+    height:200px;
+    background-color:orangered;
+    margin:10px 10px;
+
+}
+
+.alert{
+    position:absolute;
+    top:20px;
+    right:20px;
+    padding:10px 20px;
+    border:1px solid gray;
+    border-radius:10px;
+
+}
+
+.green{
+    background-color:rgba(0, 128, 0, 0.534);
+    color:green;
+    border:1px solid rgb(62, 184, 127);
+}
+
+.red{
+    background-color:rgba(216, 98, 98, 0.404);
+    color:red;
+    border:1px solid red;
+}
+
+/* .demo4{
+    display:none;
+}
+
+.demo5{
+    display: none;
+} */
+
+#preview{
+    margin:20px 20px;
+    width:400px;
+    padding:8px 15px;
+    border:1px solid gray;
+    overflow: auto;
+}
+
+.page-loader{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+.loader {
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid black; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.bton{
+    padding:15px 30px;
+    border:none;
+    background-color: black;
+    color:white;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    border-radius:40px;
 }
